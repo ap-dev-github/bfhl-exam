@@ -32,7 +32,7 @@ Processes an array of data and returns separated numbers, letters, and other inf
 **Request:**
 ```json
 {
-  "data": ["A", "B", "1", "2", "C", "D", "3", "4"]
+  "data": ["1", "334", "4", "A", "R", "$"]
 }
 ```
 Response:
