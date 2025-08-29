@@ -1,0 +1,20 @@
+{
+	"name": "bfhl-fullstack-exam-api",
+	"version": "0.0.0",
+	"private": true,
+	"scripts": {
+		"dev": "wrangler dev --port 3004 --env dev",
+		"staging": "wrangler dev --port 3004 --env staging",
+		"deploy staging": "wrangler deploy --env staging",
+		"deploy prod": "wrangler deploy --env production"
+	},
+	"devDependencies": {
+		"@cloudflare/vitest-pool-workers": "^0.8.19",
+		"typescript": "^5.5.2",
+		"vitest": "~3.0.7",
+		"wrangler": "^4.19.1"
+	},
+	"dependencies": {
+		"@cloudflare/workers-types": "^4.20250604.0"
+	}
+}
