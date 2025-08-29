@@ -21,7 +21,7 @@ https://bfhl-fullstack-exam-api-production.devversioncv.workers.dev/bfhl
 
 - **Global Edge Deployment**: Deployed across Cloudflare's worldwide network of 300+ edge locations
 - **Exceptional Performance**: p99 latency of 0 milliseconds (worst case)
-- **DDoS Protection**: Durable Object-based rate limiting with 2-second cooling period between requests
+- **DDoS Protection**: Durable Object-based rate limiting with 2-second cooling period between requests IP based.
 - **High Concurrency**: Capable of handling 30-40k concurrent requests (even more with globally distributed users)
 - **Future-Ready**: Architecture prepared for JWT implementation
 
