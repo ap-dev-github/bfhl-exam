@@ -57,7 +57,7 @@ bash
 curl -X POST https://bfhl-fullstack-exam-api-production.devversioncv.workers.dev/bfhl \
   -H "Content-Type: application/json" \
   -d '{
-    "data": ["A", "B", "1", "2", "C", "D", "3", "4"]
+  "data": ["1", "334", "4", "A", "R", "$"]
   }'
 ```
 
