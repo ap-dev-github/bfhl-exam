@@ -84,6 +84,17 @@ Network: Cloudflare Global Edge Network
 
 Language: JavaScript
 
+🧪 Testing
+The API has been thoroughly tested using Postman:
+
+Normal API Request Test
+<p align="center"> <img src="postman-testing-screenshots/postmancheck.jpg" width="800"/> </p>
+Edge Case Testing
+<p align="center"> <img src="postman-testing-screenshots/edge-case.jpg" width="800"/> </p>
+Rate Limiter Verification
+<p align="center"> <img src="postman-testing-screenshots/rate-limiter%20check.jpg" width="800"/> </p>
+
+
 ## 📈 Future Enhancements
 JWT-based authentication ready for implementation
 
