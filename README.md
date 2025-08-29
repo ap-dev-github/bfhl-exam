@@ -1,13 +1,17 @@
-# Bajaj Full Stack Exam API
-Candidate Info:
-Ayush Pandey
-22BCE7723
-Linkedin: https://www.linkedin.com/in/linkedap/
-College Email: ayush.22bce7723@vitapstudent.ac.in
-Personal Emails: inbox.ayushpandey@gmail.com, ayushpandey.cs@gmail.com
-Vellore Institute of Technology- Amaravati
+## 👤 Candidate Information
 
-A high-performance REST API built on Cloudflare's Global Edge Network, designed for the Bajaj Full Stack Exam.
+**Name:** Ayush Pandey  
+**Registration Number:** 22BCE7723  
+**LinkedIn:** [https://www.linkedin.com/in/linkedap/](https://www.linkedin.com/in/linkedap/)  
+**College Email:** ayush.22bce7723@vitapstudent.ac.in  
+**Personal Emails:** 
+- inbox.ayushpandey@gmail.com
+- ayushpandey.cs@gmail.com
+
+**Institution:** Vellore Institute of Technology - Amaravati
+
+
+### A high-performance REST API built on Cloudflare's Global Edge Network, designed for the Bajaj Full Stack Exam.
 
 Endpoint of the API
 ```
@@ -34,15 +38,17 @@ Processes an array of data and returns separated numbers, letters, and other inf
 Response:
 ```
 json
-{
-  "is_success": true,
-  "user_id": "john_doe_17091999",
-  "email": "john@xyz.com",
-  "roll_number": "ABCD123",
-  "numbers": ["1", "2", "3", "4"],
-  "alphabets": ["A", "B", "C", "D"],
-  "highest_alphabet": ["D"]
-}
+{"is_success":true,
+"api_response_time":"0 milli-second",
+"user_id":"ayush_pandey_15092002",
+"email":"ayush.22bce7723@vitapstudent.ac.in",
+"roll_number":"22BCE7723",
+"odd_numbers":["1"],
+"even_numbers":["334","4"],
+"alphabets":["A","R"],
+"special_characters":["$"],
+"sum":"339",
+"concat_string":"Ra"}
 ```
 
 Test with cURL
